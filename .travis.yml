@@ -4,4 +4,8 @@ rvm:
 script:
   - bundle exec rubocop
  notifications:
-    slack: devops-yhe5868:UPNr6s35o54WJ5bXncN2Vk7r
+  slack:
+    rooms:
+      - devops-yhe5868:UPNr6s35o54WJ5bXncN2Vk7r#general
+      - devops-yhe5868:UPNr6s35o54WJ5bXncN2Vk7r#random
+      - devops-yhe5868:UPNr6s35o54WJ5bXncN2Vk7r#test-buldozer83a
