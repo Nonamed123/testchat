@@ -3,5 +3,5 @@ rvm:
   - 2.1.5
 script:
   - bundle exec rubocop
-notifications:
-  flowdock: d4fbb65de6c9c868a2dfc4b38fbd34c1
+ notifications:
+    slack: devops-yhe5868:UPNr6s35o54WJ5bXncN2Vk7r
